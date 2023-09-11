@@ -1,18 +1,19 @@
-#include <stdio.d>
+#include <stdio.h>
 
 /**
- * main - Prints numbers from 0 to 9.
+ * main - English alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
-init main(void)
+int main(void)
 {
 	int i;
 
-	for (i = 48; i < 58; i++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
+		putchar(i + '0');
 	}
 	putchar('\n');
 	return (0);
-}	
+}
+
