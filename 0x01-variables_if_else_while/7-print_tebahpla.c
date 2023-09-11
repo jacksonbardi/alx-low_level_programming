@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - prints the lowercase alphabet in reverse.
- * followed by a new line
+ * main - English alphabet in lowercase
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
+	char letter[26] = "zyxwvutsrqponmlkjihgfedcba";
+	int i;
 
-	for (ch = 'z' ; ch >= 'a' ; ch--)
+	for (i = 0; i < 26; i++)
 	{
-		putchar(ch);
+		putchar(letter[i]);
 	}
-        putchar('\n');
-      	return (0);
-}	
+	putchar('\n');
+	return (0);
+}
+
