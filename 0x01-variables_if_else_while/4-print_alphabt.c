@@ -1,22 +1,27 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet without q and e.
+ * main - English alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i:
-	for (i = 97; i < 123; i++)
+	char letter[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
 	{
-		if (i != 101 && i !=113)
+		if (letter[i] == 'q' || letter[i] == 'e')
 		{
-			putchar(i);
+			continue;
+		}
+		else
+		{
+			putchar(letter[i]);
 		}
 	}
 	putchar('\n');
 	return (0);
-}	
+}
+
