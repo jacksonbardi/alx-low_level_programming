@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints all combinations of single-digit numbers
+ * main - prints all possible combinations of single-digit numbers
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 48; n < 58; n++)
+	for (i = 0; i < 10; i++)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(i + '0');
+		if (i != 9)
 		{
 			putchar(',');
 			putchar(' ');
@@ -19,4 +20,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
+
