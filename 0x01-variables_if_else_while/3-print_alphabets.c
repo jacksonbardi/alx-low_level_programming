@@ -1,19 +1,23 @@
-#include <stdio.d>
+#include <stdio.h>
 
 /**
- * main - Prints the alphabet.
+ * main - English alphabet in lowercase and uppercase
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXWYZ";
-        int i;
-        
-	for (i = 0; i < 52; i++)
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(alp[i]);
+		putchar(letter);
+	}
+	for (letter = 'A'; letter <= 'Z'; letter++)
+	{
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
-}	
+}
+
