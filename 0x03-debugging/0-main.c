@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * main - tests function for positive or negative
+  * main - tests function for pstve or ngtve
   *
   * Return: Always 0 (success).
   */
@@ -14,4 +14,3 @@ int main(void)
 	positive_or_negative(i);
 	return (0);
 }
-
