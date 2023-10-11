@@ -11,7 +11,7 @@ void print(char *name)
 }
 
 /**
- * print_name - prints a name by calling printing function passed as parameter
+ * print_name - prints a name by calling printing fnction pssed as parameter
  * @name: name to print
  * @f: function to call to print the name
  */
