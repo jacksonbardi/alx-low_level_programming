@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * list_len - Rtrns the nmbr of elements in a lnkd list_t list.
+ * list_len - Rtrns the number of elements in a linked list_t list.
  * @h: Pointer to the head of the lnked lst.
  *
  * Retrn: The nmbr of elmnts in the list.
